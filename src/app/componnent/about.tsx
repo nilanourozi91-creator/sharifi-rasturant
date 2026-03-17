@@ -43,10 +43,10 @@ export default function about(){
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.7 }}
-      className="text-4xl font-bold"
+      className="text-xl font-bold"
     >
-      <div className="text-2xl col-span-1">
-              <h1>Sharifi Connection</h1>
+      <div className="col-span-1">
+              <h1 className="text-5xl">Sharifi Connection</h1>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis delectus perferendis molestias in distinctio tenetur eligendi rerum nesciunt harum deleniti ab assumenda dicta ducimus molestiae, voluptatibus libero possimus obcaecati accusamus!</p>
                 <Button className="text-white bg-black px-10 py-5 text-xl mt-6">book now</Button>
            </div> 

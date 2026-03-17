@@ -123,28 +123,63 @@ export default function menu() {
   return (
     <Carousel
       plugins={[plugins.current]}
-      className="w-full max-w-full"
+      className="w-full bg-black max-w-full"
     >
       <CarouselContent>
         
         <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
-          <img src="/food-1.jpg" className="w-full rounded-lg"/>
+          <img src="/food-1.jpg" className="w-full h-[50vh] rounded-lg"/>
+        </CarouselItem>
+             
+               <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
+          <img src="/food-12.jpg" className="w-full h-[50vh] rounded-lg"/>
+        </CarouselItem>
+              
+               <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
+          <img src="/food-13.jpg" className="w-full h-[50vh] rounded-lg"/>
+        </CarouselItem>
+              
+               <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
+          <img src="/food-14.jpg" className="w-full h-[50vh] rounded-lg"/>
+        </CarouselItem>
+               
+               
+        <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
+          <img src="/food-11.jpg" className="w-full h-[50vh] rounded-lg"/>
+        </CarouselItem>
+               
+            <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
+          <img src="/food-7.jpg" className="w-full h-[50vh] rounded-lg"/>
+        </CarouselItem>
+
+
+            <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
+          <img src="/food-8.jpg" className="w-full h-[50vh] rounded-lg"/>
+        </CarouselItem>
+
+
+            <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
+          <img src="/food-9.jpg" className="w-full h-[50vh] rounded-lg"/>
+        </CarouselItem>
+
+            <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
+          <img src="/food-10.jpg" className="w-full h-[50vh] rounded-lg"/>
         </CarouselItem>
 
         <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
-          <img src="/food-2.jpg" className="w-full rounded-lg"/>
+          <img src="/food-2.jpg" className="w-full h-[50vh] rounded-lg"/>
         </CarouselItem>
 
         <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
-          <img src="/food-3.jpg" className="w-full rounded-lg"/>
+          <img src="/food-3.jpg" className="w-full h-[50vh] rounded-lg"/>
         </CarouselItem>
 
         <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
-          <img src="/food-4.jpg" className="w-full rounded-lg"/>
+          <img src="/food-4.jpg" className="w-full h-[50vh] rounded-lg"/>
         </CarouselItem>
 
         <CarouselItem className="basis-1/3 md:basis-1/2 lg:basis-1/3 p-2">
-          <img src="/food-5.jpg" className="w-full rounded-lg"/>
+          <img src="/food-5.jpg" className="w-full h-[50vh] rounded-lg"/>
         </CarouselItem>
 
       </CarouselContent>
